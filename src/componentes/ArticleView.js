@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class DropDownMenu extends React.Component {
-
-
+class ArticleView extends React.Component {
+    
     render(){
-        
+        return(
+            <p>Sexo</p>
+        )
     }
 }
+
+export default ArticleView;
