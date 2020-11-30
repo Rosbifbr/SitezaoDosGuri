@@ -1,5 +1,4 @@
-import {React} from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import './DropDownMenu.css';
 
 class DropDownMenu extends React.Component {
@@ -12,7 +11,7 @@ class DropDownMenu extends React.Component {
         return(
             <div class="navbar">
                 <a href="#home">Home</a>
-                <a onClick={this.sendData('about')} href="#about">Sobre os Guri</a>
+                <a href="#about">Sobre os Guri</a>
                 <div class="dropdown">
                     <button class="dropbtn">Conteúdos Por Matéria:
                         <i class="fa fa-caret-down"></i>

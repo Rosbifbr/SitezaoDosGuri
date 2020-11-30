@@ -1,15 +1,12 @@
-
 import { combineReducers } from 'redux';
 
-
-import counterReducer from './Counter/counter.reducer';
-import pageReducer from './pageReducer';
+import pageReducer from './pageReducer.js';
 
 
-const rootReducer = combineReducers({
+    const rootReducer = combineReducers({
 
-    pages: pageReducer,
+        pages: pageReducer,
 
-});
+    });
 
-export default rootReducer;
+    export default rootReducer;
