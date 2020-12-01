@@ -5,7 +5,7 @@ import pageReducer from './pageReducer.js';
 
     const rootReducer = combineReducers({
 
-        pages: pageReducer,
+        pageReducer,
 
     });
 

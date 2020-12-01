@@ -1,12 +1,10 @@
 import React from 'react';
 import './DropDownMenu.css';
+import {connect} from "react-redux";
+import changePage from "../redux/pageActions.js"
 
 class DropDownMenu extends React.Component {
 
-    /*sendData = (info) => {
-        Dispatch({type: 'page/change', page: info});
-    };*/
-    
     render(){
         return(
             <div class="navbar">
@@ -26,7 +24,8 @@ class DropDownMenu extends React.Component {
                 </div>
             </div>
         )
-    }
+    } 
 }
+
 
 export default DropDownMenu;
