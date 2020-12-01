@@ -7,13 +7,11 @@ import React from 'react';
 
 class App extends React.Component {
 
-  state = {pagina: ""};
-
   render(){
     return(
       <div className="App">
         <header className="App-header">
-          <h1>Site dos Guri</h1>
+          <h2>O Poder de Comunicação na Literatura</h2>
           <DropDownMenu/>
         </header>
         <ArticleView/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux";
+import rodrigo from "./rodrigo.jpg"
 
 
 const mapStateToProps = state => {
@@ -8,15 +9,41 @@ const mapStateToProps = state => {
 }
 
 class ArticleView extends React.Component {
-    constructor(props){
-        super(props);
-    }
-    
+
     render(){
-        //console.log(this.props)
-        return(
-        <p>sexo{this.props.pagina}</p>
-        )
+        switch(this.props.pagina){
+            default:    
+                return(
+                    <div>
+                        <p>Conteudo de Casa</p>
+                    </div>
+                )
+            case "about":
+                return(
+                    <div>
+                        <img style={{width:"50px"}, {height:"50px"}} src={rodrigo}/>
+                        <p>Site e conteúdo desenvolvidos por Rodrigo Ourique e Gustavo Matos</p>
+                    </div>
+                )
+            case "english":
+                return(
+                    <div>
+                        <p>Inglesss</p>
+                    </div>
+                )
+            case "portuguese":
+                return(
+                    <div>
+                        <p>Portuga</p>
+                    </div>
+                )
+            case "spanish":
+                return(
+                    <div>
+                        <p>Espanholito</p>
+                    </div>
+                )
+        }    
     }
 }
 
