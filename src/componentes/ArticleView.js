@@ -3,20 +3,19 @@ import { connect } from "react-redux";
 
 
 const mapStateToProps = state => {
-    return {page: state.pagina};
+    //console.log(state.pageReducer.pagina);
+    return {pagina: state.pageReducer.pagina};
 }
 
 class ArticleView extends React.Component {
     constructor(props){
         super(props);
-        this.state = {
-    
-        }
     }
     
-    render(){console.log(this.state.page);
+    render(){
+        //console.log(this.props)
         return(
-        <p>sexo</p>
+        <p>sexo{this.props.pagina}</p>
         )
     }
 }
