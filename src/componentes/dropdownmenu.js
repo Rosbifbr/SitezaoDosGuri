@@ -19,16 +19,16 @@ constructor(props){
     render(){
         return(
             <div class="navbar">
-                <a onClick={() => this.props.changePage("sexo")} href="#home">Home</a>
-                <a href="#about">Sobre os Guri</a>
+                <a onClick={() => this.props.changePage("home")} href="#home">Home</a>
+                <a onClick={() => this.props.changePage("about")} href="#about">Sobre os Guri</a>
                 <div class="dropdown">
                     <button class="dropbtn">Conteúdos Por Matéria:
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="#ingles">Inglês</a>
-                        <a href="#portugues">Português</a>
-                        <a href="#espanhol">Espanhol</a>
+                        <a onClick={() => this.props.changePage("english")} href="#ingles">Inglês</a>
+                        <a onClick={() => this.props.changePage("portuguese")} href="#portugues">Português</a>
+                        <a onClick={() => this.props.changePage("spanish")} href="#espanhol">Espanhol</a>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const inistate = {
 }
 
 export const pageReducer = (state = inistate, action) =>{
-    console.log(action);
+    console.log(action.payload);
     switch (action.type){
         case CHANGE_PAGE:
             return Object.assign({}, state, {pagina: action.payload.pagina});
