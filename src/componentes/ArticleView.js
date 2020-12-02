@@ -21,7 +21,7 @@ class ArticleView extends React.Component {
             case "about":
                 return(
                     <div>
-                        <img style={{width:"50px"}, {height:"50px"}} src={rodrigo}/>
+                        <img style={{margin:"auto"}, {width:"50px"}, {height:"50px"}} src={rodrigo}/>
                         <p>Site e conteúdo desenvolvidos por Rodrigo Ourique e Gustavo Matos</p>
                     </div>
                 )
