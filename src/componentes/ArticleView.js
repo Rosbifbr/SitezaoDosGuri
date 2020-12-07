@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
-import rodrigo from "./rodrigo.jpg"
+import rodrigo from '../site-content/rodrigo.jpg'
+import './ArticleView.css';
 
 
 const mapStateToProps = state => {
@@ -15,6 +16,7 @@ class ArticleView extends React.Component {
             default:    
                 return(
                     <div>
+                        <h2 class="artitle">Bem Vindo ao Nosso Site!</h2>
                         <p>Conteudo de Casa</p>
                     </div>
                 )
