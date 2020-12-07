@@ -1,6 +1,6 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import { connect } from "react-redux";
-import rodrigo from '../site-content/rodrigo.jpg'
 import './ArticleView.css';
 
 
@@ -49,11 +49,6 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Podcast - Antônio Feijó e o Contexto do Movimento Parnasianista</h2>
-                        <br/>
-                        <audio className="audio-element">
-                            <source src="https://assets.coderrocketfuel.com/pomodoro-times-up.mp3"></source>
-                        </audio>
-                        <button class="playbutton" onClick={this.playAudio}> ▶ </button>
                     </div>
                 )
             case "portuguese2":
