@@ -44,7 +44,7 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Podcast - Antônio Feijó e o Contexto do Movimento Parnasianista</h2>
-                        <PlayerWrapper/>
+                        <iframe src="https://drive.google.com/file/d/1KNj4ME6w12ZAoiOUn6cbTxpML1ZWT0BG/preview" width="350" height="100"></iframe>
                     </div>
                 )
             case "portuguese2":
