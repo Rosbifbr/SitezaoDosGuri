@@ -3,9 +3,11 @@
   overflow: hidden;
   background-image: linear-gradient(to bottom right, royalblue, skyblue);
   font-family: Arial;
-  padding-left: 40%;
-  padding-right: 30%;
-  width: 30%;
+  width: 100%;
+}
+
+.navcontent {
+  display:inline-block;
 }
 
 /* Links inside the navbar */
