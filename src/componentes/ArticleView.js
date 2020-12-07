@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import PlayerWrapper from './playerwrapper.js'
 import { connect } from "react-redux";
 import './ArticleView.css';
 
@@ -10,11 +10,6 @@ const mapStateToProps = state => {
 }
 
 class ArticleView extends React.Component {
-
-    playAudio() {
-        const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.play()
-    }
 
     render(){
         switch(this.props.pagina){
@@ -49,6 +44,7 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Podcast - Antônio Feijó e o Contexto do Movimento Parnasianista</h2>
+                        <PlayerWrapper/>
                     </div>
                 )
             case "portuguese2":

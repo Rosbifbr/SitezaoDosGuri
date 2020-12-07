@@ -1,0 +1,10 @@
+.playbutton {
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, royalblue, skyblue);
+    border-radius: 20%;
+    }
+    
+.playbutton:active{
+    background-image: linear-gradient(to top left, royalblue, skyblue);
+}

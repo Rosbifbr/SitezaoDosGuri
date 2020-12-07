@@ -9,18 +9,3 @@ margin-left: 10%;
 margin-right: 10%;
 text-align: justify;
 }
-
-.playbutton {
-padding: 10px;
-text-align: center;
-background-image: linear-gradient(to bottom right, royalblue, skyblue);
-border-radius: 20%;
-}
-
-.playbutton:hover {
-    border:none;
-}
-
-.playbutton:onclick{
-    background-image: linear-gradient(to top left, royalblue, skyblue);
-}
