@@ -15,12 +15,13 @@
 
 .App-header {
   background-image: linear-gradient(to bottom right, royalblue, skyblue);
+  /*background-image: url(./site-content/sky.jpg);*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: White;
+  color: white;
 }
 
 .App-link {
