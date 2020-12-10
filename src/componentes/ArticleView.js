@@ -1,5 +1,4 @@
 import React from 'react';
-import PlayerWrapper from './playerwrapper.js'
 import { connect } from "react-redux";
 import './ArticleView.css';
 
@@ -44,19 +43,21 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Podcast - Antônio Feijó e o Contexto do Movimento Parnasianista</h2>
-                        <iframe src="https://drive.google.com/file/d/1KNj4ME6w12ZAoiOUn6cbTxpML1ZWT0BG/preview" width="350" height="100"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1KNj4ME6w12ZAoiOUn6cbTxpML1ZWT0BG/preview" width="350" height="200"></iframe>
                     </div>
                 )
             case "portuguese2":
                 return(
                     <div>
-                        <p>Placeholder</p>
+                        <h2 class="artitle">Imagem Biográfica de um Autor Simbolista</h2>
+                        <p class="artext">Abcdefg placeholder</p>
                     </div>
                 )
             case "spanish":
                 return(
                     <div>
-                        <p>Espanholito</p>
+                        <h2 class="artitle">Espanholito</h2>
+                        <p class="artext">Coco odeio espanhol</p>
                     </div>
                 )
         }    
