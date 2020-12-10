@@ -2,7 +2,6 @@ import React from 'react';
 import './DropDownMenu.css';
 import {connect} from "react-redux";
 import { changePage } from '../redux/actions';
-import sky from '../site-content/sky.jpg'
 
 const mapDispatchToProps = (dispatch) =>{
     return {changePage: page => dispatch(changePage(page))};
