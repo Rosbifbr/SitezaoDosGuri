@@ -35,8 +35,38 @@ class ArticleView extends React.Component {
             case "english":
                 return(
                     <div>
-                        <h2 class="artitle">Inglesh</h2>
-                        <p class="artext">Inglesss</p>
+                        <h2 class="artitle">Emprego do Reported Speech em Inglês</h2>
+                        <p class="artext">Beginning in the late 1870s as a response to Romanticism and continuing into the 
+                        early part of the 20th century, Parnassianism surfaced as a poetry movement advocating “art for art’s sake.” 
+                        Primarily opposed to Romanticism’s unbridled sensibility and unrestrained poetic forms, Parnassianism 
+                        heralded artistic control, polish, elegance, objectivity, and impassiveness. The three outstanding Parnassian 
+                        poets of Brazil are Raimundo Correia, Alberto de Oliveira, and Olavo Bilac. Symbolism evolved from Romanticism 
+                        in the late 19th century and employed the imaginative use of extended metaphors suggestive of reveries and mystical 
+                        states. Influenced by the French poet Charles Baudelaire and his theme of decadence, Symbolists in Brazil also experimented 
+                        with metrics, repetition, sound effects, and other musical elements. The greatest Brazilian Symbolist poet was João da Cruz 
+                        e Sousa, born to freed slaves, who wrote abolitionist verse and was active in the antislavery movement.</p>
+
+                        <p class="artext"><i>Source: https://www.britannica.com/art/Brazilian-literature/The-19th-century</i></p>
+                        <ol class="artext">
+                            <li>
+                                <ul>
+                                    <li>Parnassianism surfaced as a poetry movement advocating “art for art’s sake.”</li>
+                                    <li>The text informed us that Parnassianism surfaced as a poetry movement advocating “art for art’s sake.”</li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <ul>
+                                    <li>The greatest Brazilian Symbolist poet was João da Cruz e Sousa, born to freed slaves</li>
+                                    <li>The text said that the greatest Brazilian Symbolist poet was João da Cruz e Sousa, who was born to freed slaves.</li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <ul>
+                                    <li>Parnassianism heralded artistic control, polish, elegance, objectivity, and impassiveness.</li>
+                                    <li>The author mentioned that Parnassianism heralded artistic control, polish, elegance, objectivity, and impassiveness.</li>
+                                </ul>
+                            </li>
+                        </ol>
                     </div>
                 )
             case "portuguese":
