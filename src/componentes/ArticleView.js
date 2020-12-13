@@ -136,28 +136,28 @@ class ArticleView extends React.Component {
                         <h2 class="artitle">El Poder de Comunicación en la Literatura Durante Los Siglos</h2>
                         <div class="artext">
                             <p>
-                            Desde el invento de la escrita, la literatura hay sido la más eficiente forma de codificación, 
-                            difusión y estoque de cuentos y narrativas, sean ellos reales o no. La literatura hay permitido incontables 
-                            vivencias de reyes, héroes, bandidos, locos y criminales transponeren las barreras de la vida y comunicaren se con 
-                            personas ordinarias con sus vidas separadas por siglos enteros.
+                            Desde el invento de la escritura, la literatura ha sido la más eficiente forma de codificación, difusión y inventario de cuentos 
+                            y narrativas, sean ellos reales o no. La literatura ha conferido incontables vivencias de reyes, héroes, bandidos, locos y criminales
+                             la capacidad de transponer las barreras de la vida y comunicarse con personas ordinarias con sus vidas separadas por siglos enteros.
                             </p>
                             <p>
-                            Durante su evolución, la literatura hay sofrido inúmeras transformaciones, como el invento de la prensa, que permitió 
-                            capacidad mucho major de reproducción y difusión de material literario, pero su essencia y su papel dominante en la 
-                            transmisión de conocimientos através de la historia continuaran siendo incontestables por todos estos años, por lo menos 
-                            hasta el advento de la internet y otros medios de comunicación y difusión de media.
+                            Durante su evolución, la literatura ha sufrido innúmeras transformaciones, como el invento de la prensa, que permitió capacidad mucho más grande 
+                            de reproducción y difusión de material literario, pero su esencia y su papel dominante en la transmisión de conocimientos a través de la 
+                            historia continuaron siendo incontestables por todos esos años, por lo menos hasta el advento de la internet y otros medios de comunicación y 
+                            difusión de media.
                             </p>
                             <p>
-                            La internet hay cambiado muchas cosas, y la Literatura ciertamente es una de ellas. Al mismo tiempo en que la literatura hay 
-                            encontrado nuevos medios para ser comunicada y mantener viva su tradición, ella hay encontrado competición cada vez más fuerte 
-                            con otros medios de transmisión de cuentos, muchas veces más rasos, pero con artificios y recursos visuales más enteressantes y 
-                            fáciles de comprender.
+                            La internet ha cambiado muchas cosas, y la Literatura ciertamente es una de ellas. Al mismo tiempo en que la literatura 
+                            ha encontrado nuevos medios para ser comunicada y mantener viva su tradición, ella ha sufrido una competencia cada vez 
+                            más fuerte con otros medios de transmisión de cuentos, muchas veces más rasos, pero con artificios y recursos visuales 
+                            más interesantes y fáciles de comprender.
+
                             </p>
                             <p>
-                            Encuanto estos otros medios de comunicación son candidatos dignos para buenos transmisores de cuentos y vivencias, ningún de ellos 
-                            transmite los cuentos con la misma profundidad, detalle y precisión que la literatura. En una sociedad con una attention span cada vez más 
-                            curta, vemos toda la riqueza y el detalle de la literatura en cheque, quando colocada para competir con medios más simples y visualmente 
-                            apelativos de transmisión de información.
+                            Mientras estos otros medios de comunicación son candidatos dignos para buenos transmisores de cuentos y vivencias, ninguno 
+                            de ellos transmite los cuentos con la misma profundidad, detalle y precisión que la literatura. En una sociedad con una 
+                            attention span cada vez más corta, vemos toda la riqueza y el detalle de la literatura puestos en jaque, cuando está  para 
+                            competir con medios más sencillos y visualmente apelativos de transmisión de información.
                             </p>
                         </div>                  
                     </div>
