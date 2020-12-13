@@ -15,7 +15,7 @@ class ArticleView extends React.Component {
         switch(this.props.pagina){
             default:    
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class="artitle">Bem Vindo ao Nosso Site!</h2>
                         <p class="artext">Nosso site visa ser um repositório sobre todas as coisas relacionadas à literatura
                          e linguagens desenvolvidas em nosso primeiro ciclo das APNPs(correspondente ao primeiro trimestre), em Espanhol, Português e Inglês.
@@ -26,7 +26,7 @@ class ArticleView extends React.Component {
                 )
             case "about":
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class='artitle'>Sobre o Nosso Site</h2>
                         <p class='artext'>Site e conteúdo desenvolvidos em novembro de 2020 por Rodrigo Ourique e Gustavo Matos, no terceiro módulo das 
                             APNPs(Atividades Pedagógicas Não Presenciais) do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul campus Osório.</p>
@@ -34,7 +34,7 @@ class ArticleView extends React.Component {
                 )
             case "english":
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class="artitle">Emprego do Reported Speech em Inglês</h2>
                         <p class="artext">Beginning in the late 1870s as a response to Romanticism and continuing into the 
                         early part of the 20th century, Parnassianism surfaced as a poetry movement advocating “art for art’s sake.” 
@@ -71,14 +71,14 @@ class ArticleView extends React.Component {
                 )
             case "portuguese":
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class="artitle">Podcast - Antônio Feijó e o Contexto do Movimento Parnasianista</h2>
                         <iframe src="https://drive.google.com/file/d/1KNj4ME6w12ZAoiOUn6cbTxpML1ZWT0BG/preview" width="350" height="200"></iframe>
                     </div>
                 )
             case "portuguese2":
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class="artitle">Imagem Biográfica de Pedro Kilkerry</h2>
                         <img width="40%" height="auto" src={pedrao}
                         alt="
@@ -132,7 +132,7 @@ class ArticleView extends React.Component {
                 )
             case "spanish":
                 return(
-                    <div>
+                    <div class='main'>
                         <h2 class="artitle">El Poder de Comunicación en la Literatura Durante Los Siglos</h2>
                         <div class="artext">
                             <p>

@@ -11,7 +11,7 @@ class App extends React.Component {
     return(
       <div className="App">
         <header className="App-header">
-          <h2>O Poder da Comunicação na Literatura</h2>
+          <h2 className="title">O Poder da Comunicação na Literatura</h2>
           <DropDownMenu/>
         </header>
         <ArticleView/>
