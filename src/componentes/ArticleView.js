@@ -80,7 +80,7 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Imagem Biográfica de Pedro Kilkerry</h2>
-                        <img style={{margin:"auto"}, {width:"10%"}, {height:"30%"}} src={pedrao}/>
+                        <img width="40%" height="auto" src={pedrao}/>
                     </div>
                 )
             case "spanish":
