@@ -28,8 +28,8 @@ constructor(props){
                         <div class="dropdown-content">
                             <a onClick={() => this.props.changePage("english")} href="#ingles">Emprego do Reported Speech em Inglês</a>
                             <a onClick={() => this.props.changePage("portuguese")} href="#portugues">Podcast Sobre Parnasianismo e Antônio Feijó</a>
-                            <a onClick={() => this.props.changePage("portuguese2")} href="#portugues2">Imagem Biográfica de um Autor Simbolista</a>
-                            <a onClick={() => this.props.changePage("spanish")} href="#espanhol">ESPANHOL - PLACEHOLDER</a>
+                            <a onClick={() => this.props.changePage("portuguese2")} href="#portugues2">Imagem Biográfica de Pedro Kilkerry</a>
+                            <a onClick={() => this.props.changePage("spanish")} href="#espanhol">El Poder de Comunicación en la Literatura Durante Los Siglos</a>
                         </div>
                     </div>
                 </div>

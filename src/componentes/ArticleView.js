@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 import './ArticleView.css';
+import pedrao from "./imagens/Pedro Kilkerry - Biografia.png"
 
 
 const mapStateToProps = state => {
@@ -26,7 +27,6 @@ class ArticleView extends React.Component {
             case "about":
                 return(
                     <div>
-                        {/*<img style={{margin:"auto"}, {width:"50px"}, {height:"50px"}} src={rodrigo}/>*/}
                         <h2 class='artitle'>Sobre o Nosso Site</h2>
                         <p class='artext'>Site e conteúdo desenvolvidos em novembro de 2020 por Rodrigo Ourique e Gustavo Matos, no terceiro módulo das 
                             APNPs(Atividades Pedagógicas Não Presenciais) do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul campus Osório.</p>
@@ -79,15 +79,40 @@ class ArticleView extends React.Component {
             case "portuguese2":
                 return(
                     <div>
-                        <h2 class="artitle">Imagem Biográfica de um Autor Simbolista</h2>
-                        <p class="artext">Abcdefg placeholder</p>
+                        <h2 class="artitle">Imagem Biográfica de Pedro Kilkerry</h2>
+                        <img style={{margin:"auto"}, {width:"10%"}, {height:"30%"}} src={pedrao}/>
                     </div>
                 )
             case "spanish":
                 return(
                     <div>
-                        <h2 class="artitle">Espanholito</h2>
-                        <p class="artext">Coco odeio espanhol</p>
+                        <h2 class="artitle">El Poder de Comunicación en la Literatura Durante Los Siglos</h2>
+                        <div class="artext">
+                            <p>
+                            Desde el invento de la escrita, la literatura hay sido la más eficiente forma de codificación, 
+                            difusión y estoque de cuentos y narrativas, sean ellos reales o no. La literatura hay permitido incontables 
+                            vivencias de reyes, héroes, bandidos, locos y criminales transponeren las barreras de la vida y comunicaren se con 
+                            personas ordinarias con sus vidas separadas por siglos enteros.
+                            </p>
+                            <p>
+                            Durante su evolución, la literatura hay sofrido inúmeras transformaciones, como el invento de la prensa, que permitió 
+                            capacidad mucho major de reproducción y difusión de material literario, pero su essencia y su papel dominante en la 
+                            transmisión de conocimientos através de la historia continuaran siendo incontestables por todos estos años, por lo menos 
+                            hasta el advento de la internet y otros medios de comunicación y difusión de media.
+                            </p>
+                            <p>
+                            La internet hay cambiado muchas cosas, y la Literatura ciertamente es una de ellas. Al mismo tiempo en que la literatura hay 
+                            encontrado nuevos medios para ser comunicada y mantener viva su tradición, ella hay encontrado competición cada vez más fuerte 
+                            con otros medios de transmisión de cuentos, muchas veces más rasos, pero con artificios y recursos visuales más enteressantes y 
+                            fáciles de comprender.
+                            </p>
+                            <p>
+                            Encuanto estos otros medios de comunicación son candidatos dignos para buenos transmisores de cuentos y vivencias, ningún de ellos 
+                            transmite los cuentos con la misma profundidad, detalle y precisión que la literatura. En una sociedad con una attention span cada vez más 
+                            curta, vemos toda la riqueza y el detalle de la literatura en cheque, quando colocada para competir con medios más simples y visualmente 
+                            apelativos de transmisión de información.
+                            </p>
+                        </div>                  
                     </div>
                 )
         }    
