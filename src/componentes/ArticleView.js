@@ -80,7 +80,54 @@ class ArticleView extends React.Component {
                 return(
                     <div>
                         <h2 class="artitle">Imagem Biográfica de Pedro Kilkerry</h2>
-                        <img width="40%" height="auto" src={pedrao}/>
+                        <img width="40%" height="auto" src={pedrao}
+                        alt="
+                        PEDRO KILLKERRY
+                        Advogado, jornalista e
+                        poeta simbolista
+                        brasileiro.
+                        
+                        FORMAÇÃO
+                        Bacharel em Ciências
+                        Jurídicas e Sociais na
+                        Faculdade de Direito da
+                        Bahia, em 1913
+                        
+                        NATURALIDADE
+                        Salvador BA, 1885 – 1917
+
+                        BIOGRAFIA
+                        Pedro Kilkerry, nascido em Salvador no
+                        ano de 1885, formou-se bacharel em
+                        Ciências Jurídicas e Sociais na
+                        Faculdade de Direito da Bahia, em
+                        1913. Nesta época, Pedro já atuava
+                        como colaborador de várias revistas,
+                        como a Nova Cruzada, Os Anais, Via
+                        Láctea, A Voz do Povo, entre outros os
+                        quais publicou a série de crônicas
+                        Quotidianas - Kodaks. Foi advogado e
+                        escriturário da Repartição de
+                        Contabilidade do Tribunal de Contas de
+                        Salvador. O poeta simbolista não
+                        publicou nenhum livro em vida. Apenas
+                        em 1971 ocorreu a publicação póstuma
+                        de 36 dos seus poemas, no livro
+                        ReVisão de Kilkerry, de Augusto de
+                        Campos. Para o mesmo, &quot;Kelkerry não
+                        só compreendeu mais conscientemente
+                        que outros simbolistas o papel
+                        desempenhado na crianção pelo
+                        subconsciente, como soube levar mais
+                        longe a liberdade de associação
+                        imagética. Por outro lado, a capacidade
+                        de síntese, assim como a consciência
+                        das limitações da sintaxe ordinária,
+                        são mais aguadas em Kilkerry do que
+                        em qualquer outro poeta do nosso
+                        Simbolismo&quot;
+                        "
+                        />
                     </div>
                 )
             case "spanish":
